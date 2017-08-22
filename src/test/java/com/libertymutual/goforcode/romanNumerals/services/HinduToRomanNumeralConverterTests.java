@@ -69,10 +69,10 @@ public class HinduToRomanNumeralConverterTests {
              { 800, "DCCC" },
              { 900, "CM" },
              { 1000, "M" },
-//             { 2000, "MM" },
-            // { 2222, "MMCCXXII" },
-            // { 2345, "MMCCCXLV" },
-            // { 3000, "MMM" }, // This is exceeds expectations
+             { 2000, "MM" },
+             { 2222, "MMCCXXII" },
+             { 2345, "MMCCCXLV" },
+             { 3000, "MMM" }, // This is exceeds expectations
         });
     }
 

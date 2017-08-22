@@ -4,11 +4,10 @@ public class HinduToRomanNumeralConverter {
 
 	public String convert(int input) {
 		// TODO Auto-generated method stub
-		if (input < 1 || input > 1000)
+		if (input < 1 || input > 3000)
 			return "invalid numeral" ;
 		String n = "";
 		
-	
 		while (input >= 1000) {
 			n += "M";
 			input -= 1000;
